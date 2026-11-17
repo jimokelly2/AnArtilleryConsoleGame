@@ -5,7 +5,7 @@
         private const double GRAVITY = 9.81;
         private const double MUZZLE_VELOCITY_BASE = 100;
         private const double GRID_SIZE = 20;
-        private const double HIT_TOLERANCE = 75;
+        private const double HIT_TOLERANCE = 5;
 
         private Random random = new Random();
         private List<Target> targets = new List<Target>();
